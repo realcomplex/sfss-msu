@@ -1,0 +1,60 @@
+\documentclass[letter,14pt]{extarticle}
+
+% Font setup with XeLaTeX:
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Linux Libertine O}
+\newfontfamily\titlefont{Niconne}
+
+% Ornaments: download 'http://altermundus.com/pages/tkz/ornament/index.html'
+\usepackage{pgfornament}
+
+% Other packages:
+\usepackage[shortlabels]{enumitem}
+\usepackage[margin=3cm]{geometry}
+
+% Footer:
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize Koen van Greevenbroek (\texttt{math-pres@sfu.ca})}
+\fancyfoot[C]{}
+\fancyfoot[R]{\raisebox{-0.5\height}{\includegraphics[scale=0.35]{SFSS_logo_small.jpg}}}
+
+\begin{document}
+
+% Title:
+\begin{center}
+  {\Huge \titlefont Common Room Guidelines} \\[1\baselineskip]
+  \textsc{For K9513, Common Room of the MSU, SASSA and ORSU}
+  
+  \vfill
+  \pgfornament[width=6cm,color=black]{88}
+  \vfill
+\end{center}
+
+\begin{enumerate}[(1),topsep=0pt]
+\item Respect for each other in the Common Room:
+  \begin{enumerate}[(a)]
+  \item Look after each other and create a positive atmosphere in the Common Room. This is a safe space for everyone, and actions that make anyone feel uncomfortable for any reason will be taken very seriously.
+  \item If someone is clearly busy with something, don't disturb them. For example, don't ask questions to someone who is already working on their own homework.
+  \item Be especially considerate during exam times, and keep the volume down.
+  \end{enumerate}
+
+\item Use of the Common Room:
+  \begin{enumerate}[(a)]
+  \item Keep the Common Room clean, leave it as you would like to find it. Clean up the whiteboard after you use it (or it'll be hard to get off).
+  \item Don't use the Common Room excessively for sleeping or other activities that are not social or related to academics.
+  \end{enumerate}
+
+\item Don't give the code of the Common Room to anyone you don't know very well.
+
+\item Don't take anything away from the Common Room that is not yours.
+
+\item Refer to your common sense or the elected executives from the MSU, SASSA or ORSU when it comes to any other use of the Common Room.
+\end{enumerate}
+
+\vfill
+
+\end{document}
